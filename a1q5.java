@@ -72,7 +72,7 @@ class a1q5 {
         }
         Arrays.sort(tempArr);
         int index = start;
-        Arrays.stream(tempArr).forEach(num -> System.out.println(">>" + num));
+        // Arrays.stream(tempArr).forEach(num -> System.out.println(">>" + num));
         for (int n : tempArr) {
             arr[index++] = n;
         }

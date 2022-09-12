@@ -20,7 +20,7 @@ class a1q4 {
             char c = (char) temp;
 
             if (a1q4.isVowel(c) == false) {
-                System.out.println(c);
+                // System.out.println(c);
                 opWriter.append(c);
             } else {
                 try {
